@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>Card Game</title>
+  </head>
+  <body>
+    <div class="bignav">
+      <div class="nav">
+        <div class="rules close-rull">📝 Rules</div>
+        <div class="new-game">
+          <h3>🆕 Game</h3>
+        </div>
+      </div>
+    </div>
+    <div class="big-container">
+      <div class="container">
+        <div class="about-rules">
+          <div class="about-moon-cards">
+            <div class="about-ace">
+              <img
+                src="/img/secondimg/pic-1.jpg"
+                alt=""
+                width="124px"
+                height="174px"
+              />
+              <p class="ace-info">ACE = 11</p>
+            </div>
+            <div class="about-king">
+              <img
+                src="/img/secondimg/pic-2.jpg"
+                alt=""
+                width="124px"
+                height="174px"
+              />
+              <p class="king-info">kING = 4</p>
+            </div>
+            <div class="about-queen">
+              <img
+                src="/img/secondimg/pic-3.jpg"
+                alt=""
+                width="124px"
+                height="174px"
+              />
+              <p class="queen-info">QUEEN = 3</p>
+            </div>
+            <div class="about-jack">
+              <img
+                src="/img/secondimg/pic-4.jpg"
+                alt=""
+                width="124px"
+                height="174px"
+              />
+              <p class="jack-info">JACK = 2</p>
+            </div>
+            <div class="about-ten">
+              <img
+                src="/img/secondimg/pic-5.jpg"
+                alt=""
+                width="124px"
+                height="174px"
+              />
+              <p class="ten-info">TEN = 10</p>
+            </div>
+          </div>
+          <div class="about-earth-cards">
+            <div class="about-ace">
+              <img
+                src="/img/firstimg/pic-1.jpg"
+                alt=""
+                width="124px"
+                height="174px"
+              />
+              <p class="ace-info">ACE = 11</p>
+            </div>
+            <div class="about-king">
+              <img
+                src="/img/firstimg/pic-2.jpg"
+                alt=""
+                width="124px"
+                height="174px"
+              />
+              <p class="king-info">kING = 4</p>
+            </div>
+            <div class="about-queen">
+              <img
+                src="/img/firstimg/pic-3.jpg"
+                alt=""
+                width="124px"
+                height="174px"
+              />
+              <p class="queen-info">QUEEN = 3</p>
+            </div>
+            <div class="about-jack">
+              <img
+                src="/img/firstimg/pic-4.jpg"
+                alt=""
+                width="124px"
+                height="174px"
+              />
+              <p class="jack-info">JACK = 2</p>
+            </div>
+            <div class="about-ten">
+              <img
+                src="/img/firstimg/pic-5.jpg"
+                alt=""
+                width="124px"
+                height="174px"
+              />
+              <p class="ten-info">TEN = 10</p>
+            </div>
+          </div>
+          <div class="information">
+            <p>
+              IF YOU WANT TO WIN TRY TO COLLECT MORE THAN 50 POINTS BUT IT IS
+              NOT THAT EASY, BECAUSE IN THIS CARDS IS ONE CARD CALLED
+              <span>"CARDS OF CHANGE"</span> WHICH DESTROYING EVERY POINTS YOU
+              HAVE. ALSO THIS CARD GIVES OPPORTUNITY TO SECOND PLAYER. IF YOU
+              HAVE MORE THAN 15 POINTS AND THINKING I HAD ENOUGH LUCK THIS TIME
+              YOU CAN SAVE YOUR POINTS PRESSING <span>"SAVE CARD"</span> BUT
+              NEXT MOVE IS FOR SECOND PLAYER OR YOU CAN PRESS
+              <span>"ROLL CARD"</span>. AND LET SEE WHAT WILL HAPPEN. PLAY SMART
+              AND GOOD LUCK.
+            </p>
+          </div>
+          <div class="close">
+            <button class="rules-close">I UNDERSTAND</button>
+          </div>
+        </div>
+        <div class="winner-moon">
+          <h1>MOON PLAYER WIN</h1>
+          <p>🏆🏆🏆</p>
+          <p>🌚🌚🌚</p>
+          <span class="moon-win-score"
+            ><h3>SCORE</h3>
+            <p class="moon-win-number"></p
+          ></span>
+        </div>
+        <div class="winner-earth">
+          <h1>EARTH PLAYER WIN</h1>
+          <p>🏆🏆🏆</p>
+          <p>🌍🌍🌍</p>
+          <span class="earth-win-score"
+            ><h3>SCORE</h3>
+            <p class="earth-win-number"></p
+          ></span>
+        </div>
+        <div class="picked-card">
+          <div class="red-img">
+            <img
+              src="/img/neutral/winner-1.jpg"
+              class="red-img"
+              alt="starter-photo"
+            />
+          </div>
+        </div>
+        <div class="roll-card roll-card-2"><p>🃏 ROLL CARD</p></div>
+        <div class="save-card"><p>🛒 SAVE CARD</p></div>
+        <div class="left-container">
+          <h1 class="moon-h1">MOON PLAYER</h1>
+          <div class="card-container">
+            <div class="moon-face-card">
+              <img src="/img/secondimg/pic-6.jpg" alt="back" />
+            </div>
+            <div class="moon-card-1">
+              <img
+                src="/img/secondimg/pic-1.jpg"
+                class="moon-card-one"
+                alt="Ace"
+              />
+            </div>
+            <div class="moon-card-2">
+              <img
+                src="/img/secondimg/pic-2.jpg"
+                class="moon-card-two"
+                alt="King"
+              />
+            </div>
+            <div class="moon-card-3">
+              <img
+                src="/img/secondimg/pic-3.jpg"
+                class="moon-card-three"
+                alt="Queen"
+              />
+            </div>
+            <div class="moon-card-4">
+              <img
+                src="/img/secondimg/pic-4.jpg"
+                class="moon-card-four"
+                alt="Jack"
+              />
+            </div>
+            <div class="moon-card-5">
+              <img
+                src="/img/secondimg/pic-5.jpg"
+                class="moon-card-five"
+                alt="Ten"
+                height="177px"
+              />
+            </div>
+            <div class="change-player">
+              <img
+                src="/img/neutral/change.png"
+                class="card-change"
+                alt="change-player"
+              />
+            </div>
+          </div>
+          <div class="moon-score">
+            <div class="number">
+              <h4>CURRENT</h4>
+              <span class="moon-checking-score"></span>
+            </div>
+          </div>
+        </div>
+        <div class="right-container">
+          <h1 class="earth-h1">EARTH PLAYER</h1>
+          <div class="card-container">
+            <div class="earth-face-card">
+              <img src="/img/firstimg/pic-6.jpg" alt="back" />
+            </div>
+            <div class="earth-card-1">
+              <img
+                src="/img/firstimg/pic-1.jpg"
+                class="earth-card-one"
+                alt="Ace"
+              />
+            </div>
+            <div class="earth-card-2">
+              <img
+                src="/img/firstimg/pic-2.jpg"
+                class="earth-card-two"
+                alt="King"
+              />
+            </div>
+            <div class="earth-card-3">
+              <img
+                src="/img/firstimg/pic-3.jpg"
+                class="earth-card-three"
+                alt="Queen"
+              />
+            </div>
+            <div class="earth-card-4">
+              <img
+                src="/img/firstimg/pic-4.jpg"
+                class="earth-card-four"
+                alt="Jack"
+              />
+            </div>
+            <div class="earth-card-5">
+              <img
+                src="/img/firstimg/pic-5.jpg"
+                class="earth-card-five"
+                alt="Ten"
+              />
+            </div>
+            <div class="change-player">
+              <img
+                src="/img/neutral/change.png"
+                class="card-change"
+                alt="change-player"
+              />
+            </div>
+          </div>
+          <div class="earth-score">
+            <div class="number">
+              <h4>CURRENT</h4>
+              <span class="earth-checking-score"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

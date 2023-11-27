@@ -1,0 +1,628 @@
+@media only screen and (max-width: 1000px) {
+  .nav,
+  .container {
+    width: 80rem;
+  }
+  .left-container,
+  .right-container {
+    width: 40rem;
+  }
+  .roll-card {
+    width: 13rem;
+    height: 4rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .save-card {
+    width: 13rem;
+    font-size: 2rem;
+    height: 3.6rem;
+    top: 80%;
+    left: 41.5%;
+  }
+  .save-card p {
+    margin-top: 0.5rem;
+  }
+  .picked-card {
+    width: 12.4rem;
+    height: 17.4rem;
+    top: 6%;
+    left: 42%;
+  }
+  .about-rules {
+    font-size: 1.3rem;
+    display: none;
+  }
+  .winner-moon,
+  .winner-earth {
+    width: 100%;
+    height: 100%;
+  }
+  .winner-moon h1,
+  .winner-earth h1 {
+    font-size: 10.8rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .nav,
+  .container {
+    width: 70rem;
+  }
+  .rules {
+    width: 12rem;
+    height: 5rem;
+    font-size: 3rem;
+  }
+  .new-game {
+    width: 13rem;
+    height: 5rem;
+    font-size: 2.7rem;
+  }
+  .left-container,
+  .right-container {
+    width: 35rem;
+  }
+  .roll-card {
+    width: 13rem;
+    height: 4rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .save-card {
+    width: 13rem;
+    font-size: 2rem;
+    height: 3.6rem;
+    top: 80%;
+    left: 41.5%;
+  }
+  .save-card p {
+    margin-top: 0.5rem;
+  }
+  .number {
+    width: 11rem;
+    height: 10rem;
+    border-radius: 1rem;
+  }
+  .number h4 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+  }
+  .picked-card {
+    width: 12.4rem;
+    height: 17.4rem;
+    top: 6%;
+    left: 41%;
+  }
+  .moon-h1,
+  .earth-h1 {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+  }
+  .winner-moon,
+  .winner-earth {
+    width: 100%;
+    height: 100%;
+  }
+  .winner-moon h1,
+  .winner-earth h1 {
+    font-size: 8.8rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .nav,
+  .container {
+    width: 60rem;
+    height: auto;
+  }
+  .rules {
+    width: 11rem;
+    height: 4.5rem;
+    font-size: 2.8rem;
+  }
+  .new-game {
+    width: 12rem;
+    height: 4.5rem;
+    font-size: 2.4rem;
+  }
+  .left-container,
+  .right-container {
+    width: 30rem;
+  }
+  .roll-card {
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.6rem;
+    text-align: center;
+    top: 70%;
+    left: 40.5%;
+  }
+  .save-card {
+    width: 12rem;
+    font-size: 1.7rem;
+    height: 3.6rem;
+    top: 80%;
+    left: 40.5%;
+  }
+  .moon-card-one,
+  .moon-card-two,
+  .moon-card-three,
+  .moon-card-four,
+  .moon-card-five {
+    width: 10.4rem;
+    height: 15.4rem;
+  }
+  .earth-card-one,
+  .earth-card-two,
+  .earth-card-three,
+  .earth-card-four,
+  .earth-card-five {
+    width: 10.4rem;
+    height: 15.4rem;
+  }
+  .card-change {
+    width: 10.4rem;
+    height: 15.4rem;
+  }
+  .red-img {
+    width: 10.4rem;
+    height: 15.4rem;
+  }
+  .save-card p {
+    margin-top: 0.5rem;
+  }
+  .number {
+    width: 10rem;
+    height: 9rem;
+    border-radius: 1rem;
+  }
+  .number h4 {
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+  }
+  .picked-card {
+    width: 10.4rem;
+    height: 15.4rem;
+    top: 6%;
+    left: 41%;
+  }
+  .moon-h1,
+  .earth-h1 {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    font-size: 1.7rem;
+    letter-spacing: 0.5rem;
+  }
+  .about-rules {
+    font-size: 1.3rem;
+    display: none;
+  }
+  .about-ace img,
+  .about-king img,
+  .about-queen img,
+  .about-jack img,
+  .about-ten img {
+    width: 8rem;
+    height: 14rem;
+  }
+
+  .about-moon-cards,
+  .about-earth-cards {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 1rem;
+  }
+  .moon-face-card img,
+  .earth-face-card img {
+    width: 9rem;
+    height: 14rem;
+  }
+  .moon-score,
+  .earth-score {
+    margin-bottom: 2rem;
+  }
+  .winner-moon,
+  .winner-earth {
+    font-size: 4rem;
+    width: 100%;
+    height: 100%;
+  }
+  .winner-moon h1,
+  .winner-earth h1 {
+    font-size: 9.8rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .nav,
+  .container {
+    width: 48rem;
+    height: auto;
+  }
+  .rules {
+    width: 10rem;
+    height: 4rem;
+    font-size: 2.5rem;
+  }
+  .new-game {
+    width: 11rem;
+    height: 4rem;
+    font-size: 2.3rem;
+  }
+  .left-container,
+  .right-container {
+    width: 24rem;
+  }
+  .roll-card {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    text-align: center;
+    top: 76%;
+    left: 40.5%;
+  }
+  .save-card {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.4rem;
+    top: 85%;
+    left: 40.5%;
+  }
+  .moon-card-one,
+  .moon-card-two,
+  .moon-card-three,
+  .moon-card-four,
+  .moon-card-five {
+    width: 8.4rem;
+    height: 13.4rem;
+  }
+  .earth-card-one,
+  .earth-card-two,
+  .earth-card-three,
+  .earth-card-four,
+  .earth-card-five {
+    width: 8.4rem;
+    height: 13.4rem;
+  }
+  .card-change {
+    width: 8.4rem;
+    height: 13.4rem;
+  }
+  .red-img {
+    width: 8.4rem;
+    height: 13.4rem;
+  }
+  .save-card p {
+    margin-top: 0.5rem;
+  }
+  .number {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 1rem;
+  }
+  .number h4 {
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+  }
+  .picked-card {
+    width: 8.4rem;
+    height: 13.4rem;
+    top: 6%;
+    left: 41%;
+  }
+  .moon-h1,
+  .earth-h1 {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    font-size: 1.3rem;
+    letter-spacing: 0.5rem;
+  }
+  .about-rules {
+    font-size: 1.2rem;
+    display: none;
+  }
+  .close .rules-close {
+    font-size: 1.2rem;
+    height: auto;
+    width: 12rem;
+  }
+  .about-ace img,
+  .about-king img,
+  .about-queen img,
+  .about-jack img,
+  .about-ten img {
+    width: 8rem;
+    height: 14rem;
+  }
+
+  .about-moon-cards,
+  .about-earth-cards {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 1rem;
+  }
+  .moon-face-card img,
+  .earth-face-card img {
+    width: 9rem;
+    height: 14rem;
+  }
+  .moon-score,
+  .earth-score {
+    margin-bottom: 2rem;
+  }
+  .winner-moon,
+  .winner-earth {
+    width: 100%;
+    height: 100%;
+    font-size: 4.8rem;
+  }
+  .winner-moon h1,
+  .winner-earth h1 {
+    font-size: 6.8rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .nav,
+  .container {
+    width: 38rem;
+    height: auto;
+  }
+  .rules {
+    width: 9rem;
+    height: 4rem;
+    font-size: 2.4rem;
+  }
+  .new-game {
+    width: 10rem;
+    height: 4rem;
+    font-size: 2.3rem;
+  }
+  .left-container,
+  .right-container {
+    width: 19rem;
+  }
+  .roll-card {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.1rem;
+    text-align: center;
+    top: 75%;
+    left: 40.5%;
+  }
+  .save-card {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.1rem;
+    top: 84%;
+    left: 40.5%;
+  }
+  .moon-card-one,
+  .moon-card-two,
+  .moon-card-three,
+  .moon-card-four,
+  .moon-card-five {
+    width: 6.4rem;
+    height: 11.4rem;
+  }
+  .earth-card-one,
+  .earth-card-two,
+  .earth-card-three,
+  .earth-card-four,
+  .earth-card-five {
+    width: 6.4rem;
+    height: 11.4rem;
+  }
+  .card-change {
+    width: 6.4rem;
+    height: 11.4rem;
+  }
+  .red-img {
+    width: 6.4rem;
+    height: 11.4rem;
+  }
+  .save-card p {
+    margin-top: 0.5rem;
+  }
+  .number {
+    width: 7rem;
+    height: 8rem;
+    border-radius: 1rem;
+  }
+  .number h4 {
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+  }
+  .picked-card {
+    width: 6.4rem;
+    height: 11.4rem;
+    top: 6%;
+    left: 41%;
+  }
+  .moon-h1,
+  .earth-h1 {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    font-size: 1rem;
+    letter-spacing: 0.4rem;
+  }
+  .about-rules {
+    font-size: 1rem;
+    display: none;
+  }
+  .about-ace img,
+  .about-king img,
+  .about-queen img,
+  .about-jack img,
+  .about-ten img {
+    width: 6.4rem;
+    height: 11.4rem;
+  }
+
+  .about-moon-cards,
+  .about-earth-cards {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 1rem;
+  }
+  .moon-face-card img,
+  .earth-face-card img {
+    width: 6.4rem;
+    height: 11.4rem;
+  }
+  .moon-score,
+  .earth-score {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .close .rules-close {
+    font-size: 1rem;
+    height: auto;
+    width: 11rem;
+  }
+  .winner-moon,
+  .winner-earth {
+    width: 100%;
+    height: 100%;
+    font-size: 4rem;
+  }
+  .winner-moon h1,
+  .winner-earth h1 {
+    font-size: 4.8rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .nav,
+  .container {
+    width: 28rem;
+    height: auto;
+  }
+  .rules {
+    width: 8rem;
+    height: 3.5rem;
+    font-size: 2.1rem;
+  }
+  .new-game {
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 2rem;
+  }
+  .left-container,
+  .right-container {
+    width: 14rem;
+  }
+  .roll-card {
+    width: 5rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    text-align: center;
+    top: 76%;
+    left: 40.5%;
+  }
+  .save-card {
+    width: 5rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    top: 85%;
+    left: 40.5%;
+  }
+  .moon-card-one,
+  .moon-card-two,
+  .moon-card-three,
+  .moon-card-four,
+  .moon-card-five {
+    width: 5.4rem;
+    height: 9.4rem;
+  }
+  .earth-card-one,
+  .earth-card-two,
+  .earth-card-three,
+  .earth-card-four,
+  .earth-card-five {
+    width: 5.4rem;
+    height: 9.4rem;
+  }
+  .card-change {
+    width: 5.4rem;
+    height: 9.4rem;
+  }
+  .red-img {
+    width: 5.4rem;
+    height: 9.4rem;
+  }
+  .save-card p {
+    margin-top: 0.5rem;
+  }
+  .number {
+    width: 5rem;
+    height: 6.5rem;
+    border-radius: 1rem;
+  }
+  .number h4 {
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+  }
+  .number span {
+    font-size: 3rem;
+  }
+
+  .picked-card {
+    width: 5.4rem;
+    height: 9.4rem;
+    top: 6%;
+    left: 41%;
+  }
+  .moon-h1,
+  .earth-h1 {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.2rem;
+  }
+  .about-rules {
+    font-size: 0.9rem;
+    display: none;
+  }
+  .about-ace img,
+  .about-king img,
+  .about-queen img,
+  .about-jack img,
+  .about-ten img {
+    width: 4.4rem;
+    height: 7.4rem;
+  }
+  .close .rules-close {
+    font-size: 1rem;
+    height: auto;
+    width: 11rem;
+  }
+
+  .about-moon-cards,
+  .about-earth-cards {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 1rem;
+  }
+  .moon-face-card img,
+  .earth-face-card img {
+    width: 5.4rem;
+    height: 9.4rem;
+  }
+  .moon-score,
+  .earth-score {
+    margin-bottom: 2rem;
+    margin-top: -2rem;
+  }
+}
